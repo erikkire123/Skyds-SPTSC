@@ -1,0 +1,326 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local ShadowMain = Instance.new("Frame")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UICorner_2 = Instance.new("UICorner")
+local Spawn = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local _1KBody = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local _10KBody = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local _100KBody = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local _1MBody = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local _100MBody = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local _10BBody = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Info = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local UICorner_11 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+ShadowMain.Name = "ShadowMain"
+ShadowMain.Parent = ScreenGui
+ShadowMain.BackgroundColor3 = Color3.fromRGB(61, 25, 170)
+ShadowMain.Position = UDim2.new(0.124495268, 0, 0.278270543, 0)
+ShadowMain.Size = UDim2.new(0, 348, 0, 400)
+ShadowMain.Active = true
+ShadowMain.Draggable = true
+
+Main.Name = "Main"
+Main.Parent = ShadowMain
+Main.BackgroundColor3 = Color3.fromRGB(63, 27, 194)
+Main.Size = UDim2.new(0, 344, 0, 395)
+
+UICorner.Parent = Main
+
+ScrollingFrame.Parent = Main
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(61, 25, 170)
+ScrollingFrame.Position = UDim2.new(0.0348837227, 0, 0.124050632, 0)
+ScrollingFrame.Size = UDim2.new(0, 319, 0, 326)
+
+UICorner_2.Parent = ScrollingFrame
+
+Spawn.Name = "Spawn"
+Spawn.Parent = ScrollingFrame
+Spawn.BackgroundColor3 = Color3.fromRGB(69, 29, 202)
+Spawn.Position = UDim2.new(0.163009405, 0, 0.0669981539, 0)
+Spawn.Size = UDim2.new(0, 220, 0, 31)
+Spawn.Font = Enum.Font.SourceSansBold
+Spawn.Text = "Spawn"
+Spawn.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spawn.TextScaled = true
+Spawn.TextSize = 14.000
+Spawn.TextStrokeColor3 = Color3.fromRGB(51, 21, 150)
+Spawn.TextStrokeTransparency = 0.000
+Spawn.TextWrapped = true
+Spawn.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-578, -13, 1750)
+end)
+
+UICorner_3.Parent = Spawn
+
+_1KBody.Name = "1K Body"
+_1KBody.Parent = ScrollingFrame
+_1KBody.BackgroundColor3 = Color3.fromRGB(69, 29, 202)
+_1KBody.Position = UDim2.new(0.163009405, 0, 0.113833591, 0)
+_1KBody.Size = UDim2.new(0, 220, 0, 31)
+_1KBody.Font = Enum.Font.SourceSansBold
+_1KBody.Text = "1K Body"
+_1KBody.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1KBody.TextScaled = true
+_1KBody.TextSize = 14.000
+_1KBody.TextStrokeColor3 = Color3.fromRGB(51, 21, 150)
+_1KBody.TextStrokeTransparency = 0.000
+_1KBody.TextWrapped = true
+_1KBody.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-682, -12, 1818)
+end)
+
+UICorner_4.Parent = _1KBody
+
+_10KBody.Name = "10K Body"
+_10KBody.Parent = ScrollingFrame
+_10KBody.BackgroundColor3 = Color3.fromRGB(69, 29, 202)
+_10KBody.Position = UDim2.new(0.163009405, 0, 0.160669029, 0)
+_10KBody.Size = UDim2.new(0, 220, 0, 31)
+_10KBody.Font = Enum.Font.SourceSansBold
+_10KBody.Text = "10K Body"
+_10KBody.TextColor3 = Color3.fromRGB(0, 0, 0)
+_10KBody.TextScaled = true
+_10KBody.TextSize = 14.000
+_10KBody.TextStrokeColor3 = Color3.fromRGB(51, 21, 150)
+_10KBody.TextStrokeTransparency = 0.000
+_10KBody.TextWrapped = true
+_10KBody.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-741, -13, 1818)
+end)
+
+UICorner_5.Parent = _10KBody
+
+_100KBody.Name = "100K Body"
+_100KBody.Parent = ScrollingFrame
+_100KBody.BackgroundColor3 = Color3.fromRGB(69, 29, 202)
+_100KBody.Position = UDim2.new(0.163009405, 0, 0.212567762, 0)
+_100KBody.Size = UDim2.new(0, 220, 0, 31)
+_100KBody.Font = Enum.Font.SourceSansBold
+_100KBody.Text = "100K Body"
+_100KBody.TextColor3 = Color3.fromRGB(0, 0, 0)
+_100KBody.TextScaled = true
+_100KBody.TextSize = 14.000
+_100KBody.TextStrokeColor3 = Color3.fromRGB(51, 21, 150)
+_100KBody.TextStrokeTransparency = 0.000
+_100KBody.TextWrapped = true
+_100KBody.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-794, -13, 1768)
+end)
+
+UICorner_6.Parent = _100KBody
+
+_1MBody.Name = "1M Body"
+_1MBody.Parent = ScrollingFrame
+_1MBody.BackgroundColor3 = Color3.fromRGB(69, 29, 202)
+_1MBody.Position = UDim2.new(0.163009405, 0, 0.260669023, 0)
+_1MBody.Size = UDim2.new(0, 220, 0, 31)
+_1MBody.Font = Enum.Font.SourceSansBold
+_1MBody.Text = "1M Body"
+_1MBody.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1MBody.TextScaled = true
+_1MBody.TextSize = 14.000
+_1MBody.TextStrokeColor3 = Color3.fromRGB(51, 21, 150)
+_1MBody.TextStrokeTransparency = 0.000
+_1MBody.TextWrapped = true
+_1MBody.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3077, 217, 2084)
+end)
+
+UICorner_7.Parent = _1MBody
+
+_100MBody.Name = "100M Body"
+_100MBody.Parent = ScrollingFrame
+_100MBody.BackgroundColor3 = Color3.fromRGB(69, 29, 202)
+_100MBody.Position = UDim2.new(0.163009405, 0, 0.307504475, 0)
+_100MBody.Size = UDim2.new(0, 220, 0, 31)
+_100MBody.Font = Enum.Font.SourceSansBold
+_100MBody.Text = "100M Body"
+_100MBody.TextColor3 = Color3.fromRGB(0, 0, 0)
+_100MBody.TextScaled = true
+_100MBody.TextSize = 14.000
+_100MBody.TextStrokeColor3 = Color3.fromRGB(51, 21, 150)
+_100MBody.TextStrokeTransparency = 0.000
+_100MBody.TextWrapped = true
+_100MBody.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2527, 302, -283)
+end)
+
+UICorner_8.Parent = _100MBody
+
+_10BBody.Name = "10B Body"
+_10BBody.Parent = ScrollingFrame
+_10BBody.BackgroundColor3 = Color3.fromRGB(69, 29, 202)
+_10BBody.Position = UDim2.new(0.163009405, 0, 0.354339957, 0)
+_10BBody.Size = UDim2.new(0, 220, 0, 31)
+_10BBody.Font = Enum.Font.SourceSansBold
+_10BBody.Text = "10B Body"
+_10BBody.TextColor3 = Color3.fromRGB(0, 0, 0)
+_10BBody.TextScaled = true
+_10BBody.TextSize = 14.000
+_10BBody.TextStrokeColor3 = Color3.fromRGB(51, 21, 150)
+_10BBody.TextStrokeTransparency = 0.000
+_10BBody.TextWrapped = true
+_10BBody.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1617, -41, -491)
+end)
+
+UICorner_9.Parent = _10BBody
+
+Info.Name = "Info"
+Info.Parent = ScrollingFrame
+Info.BackgroundColor3 = Color3.fromRGB(69, 29, 202)
+Info.Position = UDim2.new(0.0658307225, 0, 0.00781513378, 0)
+Info.Size = UDim2.new(0, 277, 0, 40)
+Info.Font = Enum.Font.SourceSansBold
+Info.Text = "Click On Me And Check Console"
+Info.TextColor3 = Color3.fromRGB(0, 0, 0)
+Info.TextScaled = true
+Info.TextSize = 14.000
+Info.TextStrokeTransparency = 0.850
+Info.TextWrapped = true
+Info.MouseButton1Down:Connect(function()
+	print("INFO")
+
+
+
+
+
+
+	print("Who am i?~~ I'm a new scripter who wants to make guis for people who aren't great at coding and can't seem to find scripts for their favorite games.")
+	wait(5)
+	print("About this gui.~~ This gui I made is brand new, and it doesn't have a lot of content right now, but I'll be adding a lot more in the future.")
+	wait(5)
+	print("Warning!~~ Make sure you're on a private server where no one can catch you exploiting before using this script, If you get banned, it'll be your fault.")
+	wait(5)
+	print("Make Sure To Join The Discord Server Where I Will Announce The Updates! discord.gg/T5vY3cUwpN")
+	wait(5)
+end)
+
+UICorner_10.Parent = Info
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(59, 25, 173)
+Title.Position = UDim2.new(0.0174418613, 0, 0.0126582282, 0)
+Title.Size = UDim2.new(0, 333, 0, 37)
+Title.Font = Enum.Font.SourceSansBold
+Title.Text = "Teleport Gui       Made By Procar"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextStrokeTransparency = 0.800
+Title.TextWrapped = true
+
+UICorner_11.Parent = Title
+
+UICorner_12.Parent = ShadowMain
+
+-- Scripts:
+
+local function OKJX_fake_script() -- UICorner. 
+	local script = Instance.new('Script', UICorner)
+
+	
+	--[[ Last synced 4/29/2022 03:28 ����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������]] require(5308494509) --[[                                                                                                  ]]--
+end
+coroutine.wrap(OKJX_fake_script)()
+local function ZKCAN_fake_script() -- Spawn.LocalScript 
+	local script = Instance.new('LocalScript', Spawn)
+
+	Spawn.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-578, -13, 1750)
+	end)
+end
+coroutine.wrap(ZKCAN_fake_script)()
+local function RSZCTT_fake_script() -- _1KBody.LocalScript 
+	local script = Instance.new('LocalScript', _1KBody)
+
+	_1KBody.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-682, -12, 1818)
+	end)
+end
+coroutine.wrap(RSZCTT_fake_script)()
+local function WKTEOOE_fake_script() -- _10KBody.LocalScript 
+	local script = Instance.new('LocalScript', _10KBody)
+
+	_10KBody.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-741, -13, 1818)
+	end)
+end
+coroutine.wrap(WKTEOOE_fake_script)()
+local function QEUG_fake_script() -- _100KBody.LocalScript 
+	local script = Instance.new('LocalScript', _100KBody)
+
+	_100KBody.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-794, -13, 1768)
+	end)
+end
+coroutine.wrap(QEUG_fake_script)()
+local function FAOXZ_fake_script() -- _1MBody.LocalScript 
+	local script = Instance.new('LocalScript', _1MBody)
+
+	_1MBody.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3077, 217, 2084)
+	
+	end)
+end
+coroutine.wrap(FAOXZ_fake_script)()
+local function LECDA_fake_script() -- _100MBody.LocalScript 
+	local script = Instance.new('LocalScript', _100MBody)
+
+	_100MBody.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2527, 302, -283)
+	end)
+end
+coroutine.wrap(LECDA_fake_script)()
+local function CNLIHPH_fake_script() -- _10BBody.LocalScript 
+	local script = Instance.new('LocalScript', _10BBody)
+
+	_10BBody.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1617, -41, -491)
+	end)
+end
+coroutine.wrap(CNLIHPH_fake_script)()
+local function PRMAF_fake_script() -- Info.LocalScript 
+	local script = Instance.new('LocalScript', Info)
+
+	print("INFO")
+	
+	
+	
+	
+	
+	
+	print("Who am i?~~ I'm a new scripter who wants to make guis for people who aren't great at coding and can't seem to find scripts for their favorite games.")
+	wait(5)
+	print("About this gui.~~ This gui I made is brand new, and it doesn't have a lot of content right now, but I'll be adding a lot more in the future.")
+	wait(5)
+	print("Warning!~~ Make sure you're on a private server where no one can catch you exploiting before using this script, If you get banned, it'll be your fault.")
+	wait(5)
+	print("Make Sure To Join The Discord Server Where I Will Announce The Updates! discord.gg/T5vY3cUwpN")
+	wait(5)
+end
+coroutine.wrap(PRMAF_fake_script)()
